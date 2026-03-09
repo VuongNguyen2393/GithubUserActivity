@@ -1,0 +1,15 @@
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/bin/Debug/net10.0/GithubUserActivity
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/bin/Debug/net10.0/GithubUserActivity.deps.json
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/bin/Debug/net10.0/GithubUserActivity.runtimeconfig.json
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/bin/Debug/net10.0/GithubUserActivity.dll
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/bin/Debug/net10.0/GithubUserActivity.pdb
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/GithubUserActivity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/GithubUserActivity.AssemblyInfoInputs.cache
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/GithubUserActivity.AssemblyInfo.cs
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/GithubUserActivity.csproj.CoreCompileInputs.cache
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/GithubUserActivity.sourcelink.json
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/GithubUserActivity.dll
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/refint/GithubUserActivity.dll
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/GithubUserActivity.pdb
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/GithubUserActivity.genruntimeconfig.cache
+/Users/vuongnguyen/Desktop/Personal Project/DotNet Projects/GithubUserActivity/obj/Debug/net10.0/ref/GithubUserActivity.dll
