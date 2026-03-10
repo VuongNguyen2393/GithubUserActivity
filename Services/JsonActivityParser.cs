@@ -20,7 +20,8 @@ namespace GithubUserActivity.Services
       var eventRepoDict = new Dictionary<(string, string), int>();
       foreach (var activityEvent in distinctEvents)
       {
-        foreach (var repo in distinctRepos)
+        var repos = activities.Where(a => a.Type == activityEvent).Select(a => a.Repo.Name);
+        foreach (var repo in repos)
         {
           var activity = activities.FirstOrDefault(a => a.Type == activityEvent && a.Repo.Name == repo);
           if (activity == null)
