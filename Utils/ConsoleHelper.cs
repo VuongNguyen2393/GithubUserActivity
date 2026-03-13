@@ -28,5 +28,20 @@ namespace GithubUserActivity.Utils
       Console.ResetColor();
     }
 
+    public static void PrintWarning(string message)
+    {
+      PrintColor(ConsoleColor.DarkYellow, message);
+    }
+
+    public static void PrintError(string message)
+    {
+      PrintColor(ConsoleColor.Red, message);
+    }
+
+    public static void PrintInfo(string message)
+    {
+      PrintColor(ConsoleColor.Blue, message);
+    }
+
   }
 }

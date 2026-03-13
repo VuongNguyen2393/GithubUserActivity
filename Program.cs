@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Json;
+using GithubUserActivity.Clients;
 using GithubUserActivity.Models;
 using GithubUserActivity.Services;
 using GithubUserActivity.Utils;
@@ -9,8 +10,8 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        var client = new HttpClient();
-        client.DefaultRequestHeaders.Add("User-Agent", "GithubActivity");
+        var httpClient = new HttpClient();
+        var githubClient = new GithubApiClient(httpClient);
         ConsoleHelper.PrintTitle();
         while (true)
         {
@@ -24,17 +25,10 @@ class Program
                 return;
             }
 
-            var response = await client.GetAsync($"https://api.github.com/users/{userName}/events");
-            if (response.IsSuccessStatusCode)
+            var response = await githubClient.GetUserActivitiesAsync(userName);
+            if (response != null)
             {
-                var data = await response.Content.ReadFromJsonAsync<List<Activity>>();
-                if (data == null)
-                {
-                    System.Console.WriteLine("Request fail");
-                    return;
-                }
-                JsonActivityParse.ListActivites(data);
-
+                JsonActivityParse.ListActivites(response);
             }
             else
             {
